@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio Front-End. Desenvolvido por Clayson Nardino, onde foi colocado em prática os conhecimentos de design e também de HTML, CSS e JavaScript.">
+  <meta name="keywords" content="front-end, design, ui design, ux design, ui/ux design, html, css, js, portfolio, interface, beleza, pessoal, desenvolvimento">
+  <title>Portfólio | FOrwesst </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@300;400;500&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <figure>
+      <img src="img/FOrwesst.png" alt="">
+    </figure>
+    <nav>
+      <button id="btn-mobile" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir Menu"><span id="hamburguer"></span></button>
+      <ul id="menu" role="menu">
+        <li><a href="#services"><span class="color-title">01</span>.services</a></li>
+        <li><a href="#skills"><span class="color-title">02</span>.skills</a></li>
+        <li><a href="#work"><span class="color-title">03</span>.work</a></li>
+        <li><a href="#exp"><span class="color-title">04</span>.experience</a></li>
+        <li><a href="#contact"><span class="color-title">05</span>.contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home">
+      <div class="redes-sociais">
+        <ul>
+          <li><a href="https://github.com/FOrwesst" target="_blank"><img src="img/github.svg" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/in/cnardino/" target="_blank"><img src="img/linkedin.svg" alt=""></a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <p class="name">olá, meu nome é</p>
+        <h1>Clayson Nardino<span class="color-title">.</span></h1>
+        <p class="desc">Desenvolvedor (em aprendizado) front-end e Back-end e estudante. Tentando mudar de Carreira. </p>
+<!-- 
+        <div class="content-btn"><a href="https://api.whatsapp.com/send?phone=5549989000856&text=Ol%C3%A1,%20eu%20vi%20o%20seu%20portf%C3%B3lio%20e%20resolvi%20trocar%20uma%20ideia!">Saber mais</a></div> -->
+      </div>
+
+      <div class="email">
+        <a href="mailto:c.nardino3@gmail.com">c.nardino3@gmail.com</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h1><span class="color-title">01</span>.services</h1>
+      <div class="cards">
+        <article class="card">
+          <img src="img/ui-design.svg" alt="">
+
+          <h2>Front-End Design</h2>
+
+          <p>Me identifico bastante com a parte de design, tanto o design da interface quanto a experiência do usuário, requisito importante para um bom site atualmente.</p>
+        </article>
+
+        <article class="card">
+          <img src="img/desktop.svg" alt="">
+
+          <h2>Desktop</h2>
+
+          <p>A porta de entrada na maioria dos casos são as interfaces desktop (web-design) e por isso é necessário que o seu site tenha uma boa interface e o usuário uma boa experiência.</p>
+        </article>
+
+        <article class="card">
+          <img src="img/python.svg" alt="">
+
+          <h2>Python</h2>
+
+          <p>Entrada ao mundo da programação, através da linguagem Python, sendo o foco e ponto principal.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1><span class="color-title">02</span>.skills</h1>
+
+      <div class="skills-galery">
+        <article class="skill">
+          <img src="img/html.svg" alt="">
+          <p>HTML 5</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/css.svg" alt="">
+          <p>CSS 3</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/bootstrap.svg" alt="">
+          <p>Bootstrap</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/python.svg" alt="">
+          <p>Python</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/js.svg" alt="">
+          <p>JavaScript</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/figma.svg" alt="">
+          <p>Figma</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/git.svg" alt="">
+          <p>Git/GitHub</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/mysql-logo.svg" alt="">
+          <p>MySQL</p>
+        </article>
+
+        <article class="skill">
+          <img src="img/django.svg" alt="">
+          <p>Django</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <h1><span class="color-title">03</span>.work</h1>
+
+      <div class="main-carousel" id="galeria">
+        <div class="carousel-cell"><a href="https://storemesquitadev.netlify.app/" target="_blank"><img src="img/galeria-1.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href="https://mesquita-dev.github.io/Bikcraft/" target="_blank"><img src="img/galeria-2.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href="https://github.com/mesquita-dev/Portfolio---Old" target="_blank"><img src="img/galeria-3.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href="https://mesquita-dev.github.io/Wildbeast/" target="_blank"><img src="img/galeria-4.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href="https://jordanshoes-dev.vercel.app/" target="_blank"><img src="img/galeria-5.jpg" alt=""></a></div>
+        <div class="carousel-cell"><a href="https://mesquita-dev.github.io/FlexBlog/" target="_blank"><img src="img/galeria-6.jpg" alt=""></a></div>
+
+      </div>
+
+      <div class="work-btns">
+        <a href="https://github.com/mesquita-dev">Github</a>
+      </div>
+    </section>
+
+    <section class="exp" id="exp">
+      <h1><span class="color-title">04</span>.experience</h1>
+
+      <h2>Estagiário Front-end / UI & UX design - Agência SIX (Jun - 2022 / Set - 2022)</h2>
+      <p>Com mais de 10 anos de mercado, pude atuar na área do UI/UX design criando wireframes, protótipos e design baseando na melhor experiência do usuário e após revisado e aprovado pelo cliente, era desenvolvido através de HTML, CSS e JS. Sendo assim, utilizadas algumas bibliotecas como o Bootstrap para responsividade e o jQuery. O desenvolvimento era feito através do Drupal, um CMS completo para auxiliar na criação das páginas.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1><span class="color-title">05</span>.contact</h1>
+
+      <h2>Estou disponível para qualquer tipo de papo, seja para freelancer, atuar em alguma empresa ou apenas trocar uma ideia!</h2>
+      <article>
+        <figure>
+          <img src="img/arrow.svg" alt="">
+        </figure>
+        <p>Formas de entrar em contato</p>
+      </article>
+
+      <article class="contact-btns">
+        <div class="contact-btn">
+          <a href="https://api.whatsapp.com/send?phone=5534991456285&text=Ol%C3%A1%2C%20eu%20vi%20o%20seu%20portf%C3%B3lio%20e%20resolvi%20trocar%20uma%20ideia!" target="_blank">WhatsApp</a>
+        </div>
+
+        <div class="contact-btn">
+          <a href="mailto:c.nardino3@gmail.com" target="_blank">Email</a>
+        </div>
+
+        <div class="contact-btn">
+          <a href="https://linkedin.com/in/mesquita-dev" target="_blank">LinkedIn</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2022. Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script src="flickity.js"></script>
+</body>
+</html>
